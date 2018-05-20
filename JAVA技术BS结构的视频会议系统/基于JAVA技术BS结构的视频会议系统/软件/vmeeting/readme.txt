@@ -1,0 +1,1 @@
+服务器端安装时只需在命令行中输入jarsigner -keystore Summit.store Chat.jar Summit  密码输入123456。 

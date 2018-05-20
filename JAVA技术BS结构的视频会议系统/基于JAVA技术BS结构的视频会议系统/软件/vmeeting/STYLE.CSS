@@ -1,0 +1,105 @@
+Body
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	text-decoration: none;
+	line-height: 150%;
+	background-color: #555555;
+	color: #cccccc;
+	FONT-SIZE: 9pt;
+   SCROLLBAR-FACE-COLOR: #cccccc;
+	SCROLLBAR-HIGHLIGHT-COLOR: #cccccc;
+	SCROLLBAR-SHADOW-COLOR: #cccccc;
+	SCROLLBAR-3DLIGHT-COLOR: #cccccc;
+	SCROLLBAR-ARROW-COLOR: #555555;
+	SCROLLBAR-TRACK-COLOR: #555555;
+	SCROLLBAR-DARKSHADOW-COLOR: #cccccc;
+}
+Td
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	color: #555555;
+}
+Input
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	color: #555555;
+	background-color: #fefefe;
+	border: 1px solid #555555;
+}
+checkbox
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	color: #555555;
+	border: 0px;
+}
+Textarea
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	color: #555555;
+	background-color: #fefefe;
+	border: 1px solid #555555;
+}
+Button
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	color: #888888;
+	background-color: #cccccc;
+	border: 1px solid #555555;
+}
+Select
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	color: #555555;
+	background-color: #fefefe;
+	border: 1px solid #555555;
+}
+A
+{
+	TEXT-DECORATION: none;
+	color: #555555;
+}
+A:hover
+{
+	COLOR: #ff6600;
+	text-decoration: underline;
+}
+.title
+{
+	background: url(Images/topBar_bg.gif);
+	color: #ff6600;
+	padding: 4px 8px;	
+	height: 28px;
+}
+.border
+{
+	border: 2px solid #555555;
+}
+.tdbg
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	background-color: #eeeeee;	
+	color: #555555;
+	padding: 4px 8px;
+}
+.topbg
+{
+	background: url(Images/topBar_bg.gif);
+	color: #ff6600;
+	padding: 4px 8px;	
+	height: 28px;
+}
+.bgcolor
+{
+	background-color: #fefefe;
+}
+.Glow
+{
+FILTER: Glow(Color=0733B2, Strength=1) dropshadow(Color=0733B2, OffX=1, OffY=1,); WIDTH: 100%; COLOR: #ffffff; LINE-HEIGHT: 20px
+}

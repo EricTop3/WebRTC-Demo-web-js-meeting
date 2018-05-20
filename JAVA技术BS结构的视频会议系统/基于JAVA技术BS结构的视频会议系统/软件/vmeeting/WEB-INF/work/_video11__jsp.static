@@ -1,0 +1,491 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+
+
+
+<title>视频会议系统</title>
+<style type="text/css">
+Body
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	text-decoration: none;
+	line-height: 150%;
+	background-color: #E8EFF9;
+	color: #000000;
+	FONT-SIZE: 9pt;
+   SCROLLBAR-FACE-COLOR: #E8EFF9;
+	SCROLLBAR-HIGHLIGHT-COLOR: #E8EFF9;
+	SCROLLBAR-SHADOW-COLOR: #E8EFF9;
+	SCROLLBAR-3DLIGHT-COLOR: #E8EFF9;
+	SCROLLBAR-ARROW-COLOR: #A5BFEC;
+	SCROLLBAR-TRACK-COLOR: #A5BFEC;
+	SCROLLBAR-DARKSHADOW-COLOR: #E8EFF9;
+}
+Td
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 9pt;
+	color: #FFFFFF;
+}
+.tdFont
+{
+	FONT-FAMILY: "Verdana, Arial, 宋体";
+	FONT-SIZE: 10pt;
+	color: #000000;
+	background-color: #E8EFF9;;
+}
+A
+{
+	TEXT-DECORATION: none;
+	color: #555555;
+}
+A:hover
+{
+	COLOR: #ff6600;
+	text-decoration: underline;
+}
+</style>
+</head>
+<script language = "JavaScript">
+function show(menu){
+if(menu==1){
+     video.style.display = "";
+     file.style.display = "none";
+     web.style.display = "none";
+	 nothing.style.display = "none";
+	 Menu1.src="images/Menu1.gif";
+	 Menu2.src="images/Menu2_1.gif";
+	 Menu3.src="images/Menu3_1.gif";
+	 }
+if(menu==2){
+    video.style.display = "none";
+    file.style.display = "";
+    web.style.display = "none";
+	nothing.style.display = "none";
+    Menu1.src="images/Menu1_1.gif";
+	Menu2.src="images/Menu2.gif";
+	Menu3.src="images/Menu3_1.gif";
+	}
+if(menu==3){
+    video.style.display = "none";
+    file.style.display = "none";
+    web.style.display = "";
+	nothing.style.display = "none";
+    Menu1.src="images/Menu1_1.gif";
+	Menu2.src="images/Menu2_1.gif";
+	Menu3.src="images/Menu3.gif";}
+}
+
+</script>
+<body leftmargin="0" topmargin="0" onLoad="javascript:show(1)">
+<table width="829"  border="0" cellpadding="0" cellspacing="0" id="video" height="410">
+  <tr>
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="33%" height="130" bgcolor="#FFFFFF"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="120"><applet code=gdut.Video_Receive.class width="145" height="110">
+				<param name=portid value="20000">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="8"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20001">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="8"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20003">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20004">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20006">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20007">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="33%"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="2"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="330" height="30"></td>
+              </tr>
+              <tr>
+                <td width="20"><img src="images/video_left.gif" width="20" height="220"></td>
+                <td width="290"><img src="images/No_Video.gif" width="290" height="220"></td>
+                <td width="20"><img src="images/video_right.gif" width="20" height="220"></td>
+              </tr>
+              <tr>
+                <td colspan="3"><img src="images/video_bottom.gif" width="330" height="16"></td>
+              </tr>
+            </table></td>
+            </tr>
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20008">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20009">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="34%"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20002">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20005">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="3"><img src="images/video_top.gif" width="165" height="15"></td>
+              </tr>
+              <tr>
+                <td width="10"><img src="images/video_left.gif" width="10" height="110"></td>
+                <td width="145"><applet code=gdut.Video_Receive.class width="145" height="110">
+                  <param name=portid value="20010">
+                </applet></td>
+                <td width="10"><img src="images/video_right.gif" width="10" height="110"></td>
+              </tr>
+              <tr>
+                <td colspan="5"><img src="images/video_bottom.gif" width="165" height="8"></td>
+              </tr>
+            </table></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+	      </table></td>
+  </tr>
+</table>
+<table width="829" height="50"  border="0" cellpadding="0" cellspacing="0" id="nothing" style="display:">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<table width="829" height="410"  border="0" cellpadding="0" cellspacing="0" id="file" style="display:">
+  <tr>
+    <td height="38" background="images/webBrowser.gif" align="right"><form action="upload_Add.jsp" method="post" encType=multipart/form-data target="_blank"><table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+      <tr>
+        <td width="10%" height="18">&nbsp;</td>
+        <td width="10%">&nbsp;</td>
+        <td width="41%">&nbsp;</td>
+        <td width="28%">&nbsp;</td>
+        <td width="11%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="20">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><input name="fileURL" type="file" style="background-color:#B7CFF6; border:0; cursor:hand; font-size:12px" onMouseOver ="this.style.backgroundColor='#ffffff'" onMouseOut ="this.style.backgroundColor='#B7CFF6'"></td>
+        <td><input name="uploadFile" type="submit" value="上传文件" style="background-color:#B7CFF6; border:0; cursor:hand; font-size:12px" onMouseOver ="this.style.backgroundColor='#ffffff'" onMouseOut ="this.style.backgroundColor='#B7CFF6'"></td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></form></td>
+  </tr>
+  <tr>
+    <td height="22"><table width="100%"  border="0" cellspacing="1" cellpadding="0" bgcolor="#FFFFFF">
+      <tr bgcolor="#91A9CA">
+        <td width="8%"><div align="center">序号</div></td>
+        <td width="42%"><div align="center">文件名称</div></td>
+        <td width="18%"><div align="center">文件类型</div></td>
+        <td width="13%"><div align="center">文件大小</div></td>
+        <td width="8%"><div align="center">上传者</div></td>
+        <td width="11%"><div align="center">下载地址</div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr valign="top">
+    <td height="226" class="tdFont"><table width="100%"  border="0" cellspacing="1" cellpadding="0" bgcolor="#FFFFFF">
+      <tr class="tdFont">
+        <td width="8%" class="tdFont"><div align="center">1</div></td>
+        <td width="42%" class="tdFont"> 　王府井数据库详细设计文档</td>
+        <td width="18%" class="tdFont"><div align="center">.doc</div></td>
+        <td width="13%" class="tdFont"><div align="center">45KB</div></td>
+        <td width="8%" class="tdFont"><div align="center">Summit</div></td>
+        <td width="11%" class="tdFont"><div align="center"><a href="#">下载</a></div></td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+      <tr class="tdFont">
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont"><div align="center"></div></td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+        <td class="tdFont">&nbsp;</td>
+      </tr>
+    </table>    </td>
+  </tr>
+</table>
+<table width="829" height="410"  border="0" cellpadding="0" cellspacing="0" id="web" style="display:">
+  <tr>
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><iframe src="webBrowser.html" frameborder="0" scrolling="no" width="810" height="410"></iframe></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="829"  border="0" cellspacing="0" cellpadding="0">
+  <tr >
+    <td height="30" background="images/Menu_Bg.gif"><img src="images/Menu1.gif" width="108" height="29" onClick="javascript:show(1);" id="Menu1" style="cursor:hand;"><img src="images/Menu2_1.gif" width="108" height="29" id="Menu2" onClick="javascript:show(2);" style="cursor:hand;"><img src="images/Menu3_1.gif" width="108" height="29" id="Menu3"  onClick="javascript:show(3);" style="cursor:hand;"></td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+1、来源与github上的demo,地址为https://github.com/webRTC/webrtc.io-demo，服务器为nodeJS
+
+2、Firefox下可用，局域网内两个火狐之间无法通信
+
+3、Chrome下可用
+
+4、Chrome和Firefox无法通信，先Chrome后firefox，firefox提示could not connect stream,变换后chrome视频黑屏
+
+

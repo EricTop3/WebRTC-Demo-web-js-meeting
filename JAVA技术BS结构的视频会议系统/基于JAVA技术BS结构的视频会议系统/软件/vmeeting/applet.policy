@@ -1,0 +1,5 @@
+keystore "http://222.200.105.64:4545/bin/Summit.store", "JKS";
+
+grant signedBy "Summit"
+{ permission java.security.AllPermission;
+};
